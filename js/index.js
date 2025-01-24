@@ -16,22 +16,22 @@ theater
 })
 
 theater
-.addActor('tlx', { speed: 0.8, accuracy: 0.6 })
-.addActor('hyh')
-.addScene('tlx: 你六点钟要来，我五点钟就开始高兴了呢。', 500)
-.addScene('hyh: 哼!', 500)
-.addScene('tlx: 哼什么?', 500)
-.addScene('hyh: 可是我五点半才告诉你的呀!', 500)
-.addScene('hyh: 你是不是高兴得太早了呀？', 100)
-.addScene('tlx: 哈哈哈哈...', 500)
-.addScene('tlx: 不要在意这些细节嘛。', 100)
+.addActor('JLY', { speed: 0.8, accuracy: 0.6 })
+.addActor('LZQ')
+.addScene('LZQ: 我讨厌你', 500)
+.addScene('JLY: 不可以', 500)
+.addScene('JLY: 那我喜欢你', 500)
+.addScene('LZQ: 我想你了', 500)
+.addScene('JLY: 我也想你宝宝', 100)
+.addScene('LZQ: 晚安', 500)
+.addScene('JLY: 我爱你', 100)
 .addScene(theater.replay.bind(theater))
 
 
 // timer
 var timer;
 
-var loveDate = new Date("2017/08/13 23:30:00");
+var loveDate = new Date("2024/01/01 12:00:00");
 
 timer = setInterval(function() {
   timeBetweenDates(loveDate);
